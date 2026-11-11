@@ -1,10 +1,10 @@
 {
- "version": "1.2.4",
- "notes": "- **Faster updates:** ClipForge now sees a new update the moment it's published. Before, GitHub's file cache could delay it by several minutes.\n- **Checks on every open:** ClipForge checks for updates each time it opens. The 20-minute wait is gone.",
+ "version": "1.2.5",
+ "notes": "**Fixes**\n- On page 4, **Preview first line** left a black box that covered the buttons below it (including **Save \u2192 Edit**), and it couldn't be closed. The voice preview now plays sound only and shows a one-line player.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.2.4.zip",
-  "sha256": "adf84a938faaf6182037e850e10e085b6d90dbb023d273210a5a6377c9a796a2",
-  "size": 429079
+  "name": "ClipForge_App_1.2.5.zip",
+  "sha256": "a0ea7205c8077c56c5bf3548edba4eaafc60cf609f1590bbd8df59f30fc2d402",
+  "size": 429223
  }
 }
