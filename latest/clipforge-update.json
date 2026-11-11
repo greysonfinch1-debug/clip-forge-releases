@@ -1,10 +1,10 @@
 {
- "version": "1.2.3",
- "notes": "- **About & Updates** shows when ClipForge last checked for updates and which version you're on.\n- The update source label now reads \"Update source (GitHub)\".\n- This is the first update delivered automatically through the new update channel, with no download or installer needed.",
+ "version": "1.2.4",
+ "notes": "- **Faster updates:** ClipForge now sees a new update the moment it's published. Before, GitHub's file cache could delay it by several minutes.\n- **Checks on every open:** ClipForge checks for updates each time it opens. The 20-minute wait is gone.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.2.3.zip",
-  "sha256": "18c4bf52c61df71114002ac5243ab2587beab6317c1f5a88fe3436c5834cc36f",
-  "size": 428981
+  "name": "ClipForge_App_1.2.4.zip",
+  "sha256": "adf84a938faaf6182037e850e10e085b6d90dbb023d273210a5a6377c9a796a2",
+  "size": 429079
  }
 }
