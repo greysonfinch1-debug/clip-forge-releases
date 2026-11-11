@@ -1,0 +1,10 @@
+{
+ "version": "1.2.2",
+ "notes": "**New: fully automatic updates**\n- ClipForge downloads and verifies new versions in the background while you work. The update installs the next time you open ClipForge.\n- A yellow **\"Restart to finish\"** button lets you install it straight away if you prefer.\n- To go back to one-click updates, untick **About & Updates \u2192 Install updates automatically**.\n- ClipForge now checks for updates every time it opens. Before, it waited 6 hours between checks.\n- Updates now come from the `updates` branch of your releases repository, which Claude publishes to directly. There are no files to upload yourself. Releases still work as a fallback.\n\n**Security**\n- ClipForge now verifies updates with a new signing key. The previous key was retired after it was accidentally published.",
+ "runtime_version": "py3.11-c37917fae73d",
+ "app_package": {
+  "name": "ClipForge_App_1.2.2.zip",
+  "sha256": "917c16b6bb80aa87c3bc0969a1dbe789a0fee047c98d47e5292fffa52cd231e0",
+  "size": 428825
+ }
+}
