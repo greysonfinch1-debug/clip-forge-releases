@@ -2,7 +2,7 @@
 
 The ClipForge app downloads its updates from this folder. Every file is checked against ClipForge's signature and SHA-256 before anything is installed.
 
-Current version: **1.2.5**
+Current version: **1.2.6**
 
 **Fixes**
-- On page 4, **Preview first line** left a black box that covered the buttons below it (including **Save → Edit**), and it couldn't be closed. The voice preview now plays sound only and shows a one-line player.
+- Exporting a Short made from a **video link** failed with "You have requested downloading the video partially, but ffmpeg is not installed". The video downloader now finds ClipForge's built-in FFmpeg. Shorts made from video files on your PC were not affected.

@@ -1,10 +1,10 @@
 {
- "version": "1.2.5",
- "notes": "**Fixes**\n- On page 4, **Preview first line** left a black box that covered the buttons below it (including **Save \u2192 Edit**), and it couldn't be closed. The voice preview now plays sound only and shows a one-line player.",
+ "version": "1.2.6",
+ "notes": "**Fixes**\n- Exporting a Short made from a **video link** failed with \"You have requested downloading the video partially, but ffmpeg is not installed\". The video downloader now finds ClipForge's built-in FFmpeg. Shorts made from video files on your PC were not affected.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.2.5.zip",
-  "sha256": "a0ea7205c8077c56c5bf3548edba4eaafc60cf609f1590bbd8df59f30fc2d402",
-  "size": 429223
+  "name": "ClipForge_App_1.2.6.zip",
+  "sha256": "8ab818d18d84e8e2bdd0141115aabfaa322d547f311fe9c0189cd77d5c70e6d6",
+  "size": 429405
  }
 }
