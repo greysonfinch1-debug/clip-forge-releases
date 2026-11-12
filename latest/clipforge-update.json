@@ -1,10 +1,10 @@
 {
- "version": "1.2.6",
- "notes": "**Fixes**\n- Exporting a Short made from a **video link** failed with \"You have requested downloading the video partially, but ffmpeg is not installed\". The video downloader now finds ClipForge's built-in FFmpeg. Shorts made from video files on your PC were not affected.",
+ "version": "1.2.7",
+ "notes": "**Edit & Captions (page 5)**\n- **Build edit** now also renders the preview, so the video appears without a second click.\n- **Any changes?** understands general requests such as \"make it cooler\", \"make it better\" or \"more hype\", even without Ollama. It switches to another hook, speeds the voice up slightly, makes the captions bigger and uses snappier cuts, then lists each change. Undo puts it all back.\n- Fixed garbled text (`&#x27;`, `&quot;`) in the Any changes? results.\n- If a preview can't play inside the app, ClipForge now says so and points you to **Open externally** instead of showing an empty area.\n- Includes 1.2.6's fix for Shorts made from video links (\"ffmpeg is not installed\"), which also stopped the preview and the captions from building.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.2.6.zip",
-  "sha256": "8ab818d18d84e8e2bdd0141115aabfaa322d547f311fe9c0189cd77d5c70e6d6",
-  "size": 429405
+  "name": "ClipForge_App_1.2.7.zip",
+  "sha256": "5f1a1cf2fe3e32e5594d0e0959fcdbf0737cba0659802fbca105e7ea5368cd62",
+  "size": 430067
  }
 }
