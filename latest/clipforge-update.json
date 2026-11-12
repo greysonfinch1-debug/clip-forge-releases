@@ -1,10 +1,10 @@
 {
- "version": "1.2.7",
- "notes": "**Edit & Captions (page 5)**\n- **Build edit** now also renders the preview, so the video appears without a second click.\n- **Any changes?** understands general requests such as \"make it cooler\", \"make it better\" or \"more hype\", even without Ollama. It switches to another hook, speeds the voice up slightly, makes the captions bigger and uses snappier cuts, then lists each change. Undo puts it all back.\n- Fixed garbled text (`&#x27;`, `&quot;`) in the Any changes? results.\n- If a preview can't play inside the app, ClipForge now says so and points you to **Open externally** instead of showing an empty area.\n- Includes 1.2.6's fix for Shorts made from video links (\"ffmpeg is not installed\"), which also stopped the preview and the captions from building.",
+ "version": "1.2.8",
+ "notes": "- **Preview builds automatically:** when you open **5 \u00b7 Edit & Captions** and the edit hasn't been built yet, ClipForge builds it straight away (voice, captions and the preview video) and plays it. You no longer need to know to click **Build edit**.\n- **Picks up where you left off:** ClipForge reopens your last project when it starts, including after an update restart, and goes to the page you'd reached.\n- If no project is open, page 5 now says so instead of showing an empty area.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.2.7.zip",
-  "sha256": "5f1a1cf2fe3e32e5594d0e0959fcdbf0737cba0659802fbca105e7ea5368cd62",
-  "size": 430067
+  "name": "ClipForge_App_1.2.8.zip",
+  "sha256": "3c5d86387c7c41d42a78f093aaf0ffe68654c2911d8e16f1454e11140c14b1f4",
+  "size": 430827
  }
 }
