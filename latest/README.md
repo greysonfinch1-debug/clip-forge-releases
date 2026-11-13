@@ -2,43 +2,45 @@
 
 The ClipForge app downloads its updates from this folder. Every file is checked against ClipForge's signature and SHA-256 before anything is installed.
 
-Current version: **1.3.0**
+Current version: **1.4.0**
 
-**Tell ClipForge how to make the Short**
-- The topic box now understands instructions as well as the topic. Type, for example, *"make the video about the police chases and describe the 4 craziest ones"* or *"top 5 funniest NPC moments, explain why each one is funny"*.
-  - **How many:** "the four coolest things" picks 4 moments.
-  - **Countdown:** "top 5", or a number plus "best / coolest / craziest…", gives a countdown: #5 … #1 on screen, the best moment last.
-  - **Story order:** "tell the story … in order" keeps the clips in the order they happened.
-  - **Narration:** "describe / explain each one" gives every clip its own line about that moment; "no narration" turns the voice off.
-- With the AI language model (Ollama) running, each line says what happens in that clip and why it fits your request. Without it, ClipForge can't see what happens, so each line is the moment's number plus the most telling thing actually said in it, word for word (never anything made up, never swearing). Page 4 tells you which one you got.
-- If Ollama wasn't running when you started, start it and click **Rewrite script with AI**: ClipForge now tries again instead of staying in basic mode until you restart.
+**Three kinds of video**
+- **Clip-driven** (as before): moments from your footage tell the story.
+- **Narration-driven** (new): the narration tells the story, and footage is picked to go with each part of it. For explainers, lists, documentaries, news-style reports, commentary, stories, even a poem.
+- **Hybrid** (new): real moments with their own sound, plus narrated parts over supporting footage. For example, open with a real moment, explain something, cut to the real reactions, end strong.
+- Just describe the video in the prompt box. ClipForge works out which kind it is, the style, pacing and subject, and step 2 says what it understood. You can also set the type, style and pacing yourself.
 
-**Projects**
-- **Projects…** (bottom left) lists all your projects: name, video, topic, current step, last change and status. From there you can open one, start a new one, rename it or delete it.
-- When you delete a project you choose whether its downloaded video and analysis go too. They're kept automatically if another project uses the same video. Exported Shorts, settings, AI models and other projects are never touched.
-- Projects save automatically whenever you move between steps, after every task, and shortly after edits.
-- Saves are crash-safe: a new save never half-overwrites the old one, and the last 5 versions are kept. A damaged project file is restored from the newest good copy.
+**Footage that fits the narration**
+- The picture model (CLIP) matches every second of your footage to the meaning of each part of the narration. The footage doesn't have to show exactly what's said, just something that fits.
+- Within a part, the shots follow the narration in order, and the picture changes at the end of a sentence.
+- Shots never cross a scene change, aren't reused, avoid near-identical pictures, and prefer sharp, well-lit footage. A part can keep the previous part's shot running ("same shot").
+- Footage that has nothing to do with the subject (a cartoon in a video about a mall) is only used when nothing else fits.
+- Low-resolution footage is shown whole (blurred background) instead of being blown up.
+- Every shot says how well it fits: strong, good, loose (only the mood or setting) or weak (nothing in your footage really shows it). Parts nothing fits are listed so you can add footage or pick shots yourself.
+- If the prompt names footage ("use the cartoon footage"), that footage is preferred.
+- This needs the picture model: **AI Models → Install visual understanding** (about 2 GB, once). Without it, footage is picked for quality and movement only, and ClipForge says so.
 
-**Restart project**
-- **Restart project…** (bottom left) starts the open project over from step 1, from any step.
-- You can keep the video and its analysis (so finding moments again takes seconds), or start completely from scratch.
-- Nothing from before reappears, and your settings, models and other projects are untouched.
+**Footage library**
+- Add more videos for the narration to draw on: more streams, b-roll, openly licensed footage. Each has a role (main, b-roll, reaction, atmosphere).
+- ClipForge asks how you're allowed to use every video, and never uses one without a recorded permission. Credits for every video used go in the export's `.txt` file.
 
-**Cancel anything, see what's happening**
-- A status bar at the bottom shows what ClipForge is doing (Downloading, Analysing, Generating, Rendering, Exporting, Cancelling, Finished, Error) and which step it's on.
-- It shows a percentage only when one can really be measured; otherwise it shows a moving "working" bar. It estimates the time left once it can.
-- **Cancel** stops any task within a few seconds and leaves the project as it was before that step, including language-model answers, voice recording and downloads. A cancelled download has completely stopped writing by the time Cancel finishes, so you can start it again straight away.
-- While a task runs, the steps are read-only, so two tasks can't fight over your project.
-- No FFmpeg is ever left running in the background, even if ClipForge itself is closed by force.
+**Script & Visuals (step 2)**
+- Every part of the video with its narration, what to show, the footage chosen and why.
+- Change one part without touching the others: rewrite it, find different footage, replace one shot, carry the previous shot on, move, add or delete parts, keep footage you like. Change the pacing or style for the whole video.
 
-**No more freezing during "Identifying speakers"**
-- The window used to freeze for several seconds at a time while ClipForge worked out who was speaking (worse on long streams). That model now runs in a small helper process, so the window stays responsive, and Cancel stops it instantly. The results are exactly the same.
+**Narration**
+- With the AI language model (Ollama), ClipForge writes the script: a strong opening, no filler, your number of points, your style (informative, documentary, educational, entertaining, dramatic, conversational, storytelling, commentary, news-style), fitted to the length you picked.
+- Facts: with notes or source links it uses only those facts. Without them, it uses general knowledge and marks those parts "check before publishing"; anything unconfirmed is marked speculation. Pages behind a login or paywall are refused, not bypassed.
+- Or paste your own script and use it word for word.
+- Without Ollama, ClipForge can't write narration: paste your own script (clip-driven videos work as before).
 
-**Going back to change things**
-- ClipForge tracks what each step was made from, and tells you (yellow note) when an earlier change makes a later step out of date.
-- It redoes only what's needed: a new hook doesn't re-download clips, new narration doesn't redo the analysis, a caption style only re-renders, and a new topic reuses the video's analysis.
-- You're asked before anything that would replace your hand edits.
+**Sound and captions**
+- Captions follow the narration word by word; real moments keep their own speech captions.
+- The footage's own sound is turned down under the narration (further when someone is talking in it); real moments keep their sound.
 
-**Normal PCs**
-- New **Performance** setting: Balanced (default), Performance or Low resource. The modes change speed and how much of the PC ClipForge uses, not quality.
-  - Balanced leaves CPU
+**Music**
+- "No music" in the prompt turns music off for that video. "Calm music" (or any other word) picks a file from your music folder with that word in its name. ClipForge doesn't include music, so use music you're allowed to use.
+
+**Command line**
+- `clipforge-cli create --spec video.json` makes a video from a prompt without the window.
+- `clipforge-cli creativecheck "D:\Videos\stream.mp4" --rights own` tries five kinds of prompt with yo
