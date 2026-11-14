@@ -1,10 +1,10 @@
 {
- "version": "1.5.1",
- "notes": "- No more double screen: streams with a big webcam get one full-screen picture centred on the person.\n- Gameplay fills more of the screen (about 60 % of the height instead of 46 %).\n- Narrated videos open with a hook, explain each point clearly (numbered tips), end with a last piece of advice and a short \"Follow for more.\"\n- Swear words are masked in the captions (the audio isn't changed).",
+ "version": "1.6.0",
+ "notes": "- ClipForge now draws on research into what keeps people watching Shorts:\n  - It recognises the kind of video (gaming, history, facts, science, news\u2026).\n  - It picks a hook and structure that suit it, without one fixed template.\n  - It paces shots for the content.\n  - It highlights list numbers in captions.\n- A new creative check scores every video before export:\n  - It scores the hook, clarity, story, retention, pacing, visuals, narration, captions, audio and ending.\n  - It shows exactly where to improve (for example \"0:00\u20130:08: nothing is said yet\").\n  - It can fix weak parts once, automatically, and you can always go back to the original.\n- Bring your own YouTube Studio numbers (`clipforge-cli performance import`) to see which choices work for your channel.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.5.1.zip",
-  "sha256": "c193263c58237cc935e3d0a68c7f90f54cd8aa525c7a5c38196dcfa7cfd66fa0",
-  "size": 588371
+  "name": "ClipForge_App_1.6.0.zip",
+  "sha256": "cbb0c6c5133af7b1534fbdf0ae9e01347c44dcba1f5cb3b36808318614b957d2",
+  "size": 626055
  }
 }
