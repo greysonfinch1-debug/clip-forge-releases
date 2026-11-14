@@ -1,10 +1,10 @@
 {
- "version": "1.4.1",
- "notes": "- When the prompt names the footage to use (\"use the cartoon footage\", \"with my Minecraft gameplay\"), ClipForge now really uses that footage, even when there's little of it (it repeats it rather than switching to other videos, and step 2 says the library is small). \"Calm footage\" and similar describe the mood, not which video.",
+ "version": "1.5.0",
+ "notes": "**Faster**\n- Reopening a project or making a new video from an analysed one no longer waits for AI models it doesn't need.\n- The first analysis of a video runs speech and pictures at the same time.\n- AI models stay loaded between steps (unless your PC is short of memory, or you chose Low resource).\n- The language model stays loaded in Ollama between steps and starts loading while you type your prompt.\n- No more network checks for the picture model once it's downloaded.\n- Rendering is quicker, with the same final quality settings.\n\n**Production brief**\n- Before making the video, the AI turns your prompt into a detailed production brief: the kind of video, hook, parts and talking points, what to show, ending, editing, narration and captions, and which facts must be checked. You see it as it's written, can edit it, ask for another, or skip it.\n- Your prompt itself is never changed. The video, the script and the footage follow the brief you approve.\n- Without Ollama running, ClipForge tells you why and how to fix it, and lets you continue with your prompt as typed.\n- Your video is analysed while the brief is written, so no time is lost.\n- Settings \u2192 Prompt expansion turns it off, or uses the brief without asking.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.4.1.zip",
-  "sha256": "334cc3527a25785c4bffaf6c458828f6ae289961438542ede5d5671dc15423d9",
-  "size": 560322
+  "name": "ClipForge_App_1.5.0.zip",
+  "sha256": "2faa726c1aa8e5cf9596e51f03c01689ece218718d4326564a6d1c25500f57f1",
+  "size": 586619
  }
 }
