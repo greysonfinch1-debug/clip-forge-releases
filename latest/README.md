@@ -2,15 +2,10 @@
 
 The ClipForge app downloads its updates from this folder. Every file is checked against ClipForge's signature and SHA-256 before anything is installed.
 
-Current version: **1.6.0**
+Current version: **1.6.1**
 
-- ClipForge now draws on research into what keeps people watching Shorts:
-  - It recognises the kind of video (gaming, history, facts, science, news…).
-  - It picks a hook and structure that suit it, without one fixed template.
-  - It paces shots for the content.
-  - It highlights list numbers in captions.
-- A new creative check scores every video before export:
-  - It scores the hook, clarity, story, retention, pacing, visuals, narration, captions, audio and ending.
-  - It shows exactly where to improve (for example "0:00–0:08: nothing is said yet").
-  - It can fix weak parts once, automatically, and you can always go back to the original.
-- Bring your own YouTube Studio numbers (`clipforge-cli performance import`) to see which choices work for your channel.
+- **Facts are looked up first.** For factual videos ClipForge reads Wikipedia and the game's own wiki before writing, and the script may only state specifics found there. The pages are listed in the video's notes.
+- **Every script is checked before the video is made.** That covers repeated points, shallow tips, filler phrases, and anything the sources don't back up. The AI fixes what it finds, repeats are removed and the "First / Second / Last one" numbering is corrected.
+- **Deeper tips.** Each one now says what it is, exactly how or where, and why it's worth knowing.
+- **Better framing in third-person gameplay.** The crop stays on the player.
+- **Fixed:** the creative check could fail to run.
