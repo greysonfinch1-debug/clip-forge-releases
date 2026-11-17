@@ -2,8 +2,12 @@
 
 The ClipForge app downloads its updates from this folder. Every file is checked against ClipForge's signature and SHA-256 before anything is installed.
 
-Current version: **1.6.2**
+Current version: **1.6.3**
 
-- While you read the production brief, ClipForge is already making the video. Approve it unchanged and most of the wait is gone. Edit it and it starts again from your version.
-- Clips are cut from your video several at a time.
-- Hybrid videos search fewer moments in depth (they only use 1–3), so finding moments and identifying speakers takes a fraction of the time.
+- **Scripts keep your length again.** A 45-second video gets about 45 seconds of narration.
+- **Every point names something real from the research**, instead of padding:
+  - ClipForge picks a short list of concrete facts from the pages it looks up.
+  - The script uses one per point.
+  - Vague filler is replaced, not expanded.
+- **Research only uses pages about the right game.**
+- **"GTA 6 secrets" no longer makes it plan 6 points.**

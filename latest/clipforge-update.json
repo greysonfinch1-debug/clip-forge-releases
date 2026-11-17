@@ -1,10 +1,10 @@
 {
- "version": "1.6.2",
- "notes": "- While you read the production brief, ClipForge is already making the video. Approve it unchanged and most of the wait is gone. Edit it and it starts again from your version.\n- Clips are cut from your video several at a time.\n- Hybrid videos search fewer moments in depth (they only use 1\u20133), so finding moments and identifying speakers takes a fraction of the time.",
+ "version": "1.6.3",
+ "notes": "- **Scripts keep your length again.** A 45-second video gets about 45 seconds of narration.\n- **Every point names something real from the research**, instead of padding:\n  - ClipForge picks a short list of concrete facts from the pages it looks up.\n  - The script uses one per point.\n  - Vague filler is replaced, not expanded.\n- **Research only uses pages about the right game.**\n- **\"GTA 6 secrets\" no longer makes it plan 6 points.**",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.6.2.zip",
-  "sha256": "3db1caa8697bce1d2d650d024598ee17b02e25b10aff70050b43ec94a3b48cb0",
-  "size": 638853
+  "name": "ClipForge_App_1.6.3.zip",
+  "sha256": "622ee5c3af268b41f3b8a69201e1c7b54a10018b34d241ebe83d297000f26c19",
+  "size": 642345
  }
 }
