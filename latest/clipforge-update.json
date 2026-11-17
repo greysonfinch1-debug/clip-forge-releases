@@ -1,10 +1,10 @@
 {
- "version": "1.6.1",
- "notes": "- **Facts are looked up first.** For factual videos ClipForge reads Wikipedia and the game's own wiki before writing, and the script may only state specifics found there. The pages are listed in the video's notes.\n- **Every script is checked before the video is made.** That covers repeated points, shallow tips, filler phrases, and anything the sources don't back up. The AI fixes what it finds, repeats are removed and the \"First / Second / Last one\" numbering is corrected.\n- **Deeper tips.** Each one now says what it is, exactly how or where, and why it's worth knowing.\n- **Better framing in third-person gameplay.** The crop stays on the player.\n- **Fixed:** the creative check could fail to run.",
+ "version": "1.6.2",
+ "notes": "- While you read the production brief, ClipForge is already making the video. Approve it unchanged and most of the wait is gone. Edit it and it starts again from your version.\n- Clips are cut from your video several at a time.\n- Hybrid videos search fewer moments in depth (they only use 1\u20133), so finding moments and identifying speakers takes a fraction of the time.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.6.1.zip",
-  "sha256": "3471c02d4b9143b286c371b80c2d1cbc4118f10218aa6652f7325fb183ffd8a2",
-  "size": 637036
+  "name": "ClipForge_App_1.6.2.zip",
+  "sha256": "3db1caa8697bce1d2d650d024598ee17b02e25b10aff70050b43ec94a3b48cb0",
+  "size": 638853
  }
 }
