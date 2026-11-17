@@ -1,10 +1,10 @@
 {
- "version": "1.6.3",
- "notes": "- **Scripts keep your length again.** A 45-second video gets about 45 seconds of narration.\n- **Every point names something real from the research**, instead of padding:\n  - ClipForge picks a short list of concrete facts from the pages it looks up.\n  - The script uses one per point.\n  - Vague filler is replaced, not expanded.\n- **Research only uses pages about the right game.**\n- **\"GTA 6 secrets\" no longer makes it plan 6 points.**",
+ "version": "1.6.4",
+ "notes": "- **Hooks are short and grab attention.** The AI writes several hooks and the strongest is used. A hook you write yourself in quotes is still used exactly.\n- **Scripts sound spoken, not written:** short sentences, contractions, no filler or jammed-together nouns.\n- **Channel intros and promos are written as promos**, not as fact lists.\n- **The voice varies its delivery:** a punchier hook, changing pace between points, a slower final point and a lively ending.\n- **Uses a bigger AI model for scripts** if you've downloaded one (for example `ollama pull qwen2.5:14b-instruct`).\n- \"GTA\" is read as \"G T A\".",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.6.3.zip",
-  "sha256": "622ee5c3af268b41f3b8a69201e1c7b54a10018b34d241ebe83d297000f26c19",
-  "size": 642345
+  "name": "ClipForge_App_1.6.4.zip",
+  "sha256": "422accb1bccf0065e7fa2c977419ba2d5627264dd5a28c4a87ccb04c4775415a",
+  "size": 646479
  }
 }
