@@ -1,10 +1,10 @@
 {
- "version": "1.7.0",
- "notes": "- **Scripts are planned before they're written:** what the viewer learns, the angle, the order, and what to leave out.\n- **Hooks:** 6 are written and the strongest is chosen. Generic openers (\"Did you know\u2026\", \"Here are\u2026\") are rejected.\n- **Every script is reviewed before it's voiced.** The review scores hook, information, accuracy, flow, clarity, natural speech, relevance and pacing. Weak scripts are rewritten. If one still isn't good enough, ClipForge **doesn't make the video** and shows you why, plus its best attempt.\n- **No invented GTA facts:** payouts, locations and mechanics must come from the GTA Wiki pages it looks up.\n- **The AI production brief no longer changes what your video says**, unless you edit it yourself.\n- **Hybrid videos keep enough time for the narration.**",
+ "version": "1.7.1",
+ "notes": "- A hook you write yourself can no longer get your script rejected.\n- Channel intros are judged as intros.\n- Scripts are pushed harder to use real spoken sentences instead of slogans.\n- A rewrite that comes back unchanged is redone from scratch.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.7.0.zip",
-  "sha256": "f28b3ca24ae2eb6dee6bfdadeb1242beac597ea6832cb8087201c901bac9e159",
-  "size": 669373
+  "name": "ClipForge_App_1.7.1.zip",
+  "sha256": "3702e566ea7484cd46039f38234d5ebe3f8600e9e603fd005cc0c6ce0472ae34",
+  "size": 670566
  }
 }
