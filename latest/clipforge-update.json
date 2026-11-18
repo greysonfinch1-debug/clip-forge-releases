@@ -1,10 +1,10 @@
 {
- "version": "1.6.4",
- "notes": "- **Hooks are short and grab attention.** The AI writes several hooks and the strongest is used. A hook you write yourself in quotes is still used exactly.\n- **Scripts sound spoken, not written:** short sentences, contractions, no filler or jammed-together nouns.\n- **Channel intros and promos are written as promos**, not as fact lists.\n- **The voice varies its delivery:** a punchier hook, changing pace between points, a slower final point and a lively ending.\n- **Uses a bigger AI model for scripts** if you've downloaded one (for example `ollama pull qwen2.5:14b-instruct`).\n- \"GTA\" is read as \"G T A\".",
+ "version": "1.7.0",
+ "notes": "- **Scripts are planned before they're written:** what the viewer learns, the angle, the order, and what to leave out.\n- **Hooks:** 6 are written and the strongest is chosen. Generic openers (\"Did you know\u2026\", \"Here are\u2026\") are rejected.\n- **Every script is reviewed before it's voiced.** The review scores hook, information, accuracy, flow, clarity, natural speech, relevance and pacing. Weak scripts are rewritten. If one still isn't good enough, ClipForge **doesn't make the video** and shows you why, plus its best attempt.\n- **No invented GTA facts:** payouts, locations and mechanics must come from the GTA Wiki pages it looks up.\n- **The AI production brief no longer changes what your video says**, unless you edit it yourself.\n- **Hybrid videos keep enough time for the narration.**",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.6.4.zip",
-  "sha256": "422accb1bccf0065e7fa2c977419ba2d5627264dd5a28c4a87ccb04c4775415a",
-  "size": 646479
+  "name": "ClipForge_App_1.7.0.zip",
+  "sha256": "f28b3ca24ae2eb6dee6bfdadeb1242beac597ea6832cb8087201c901bac9e159",
+  "size": 669373
  }
 }
