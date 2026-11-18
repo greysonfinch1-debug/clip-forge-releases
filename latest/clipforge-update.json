@@ -1,10 +1,10 @@
 {
- "version": "1.7.1",
- "notes": "- A hook you write yourself can no longer get your script rejected.\n- Channel intros are judged as intros.\n- Scripts are pushed harder to use real spoken sentences instead of slogans.\n- A rewrite that comes back unchanged is redone from scratch.",
+ "version": "1.8.0",
+ "notes": "- **Sentences flow into each other:** lines with the same pace are spoken in one go instead of being stitched together.\n- **Pace and pauses follow the script:** a livelier hook, slower reveals, a short pause into \"So\u2026\" or \"Then\u2026\", and a breath before the call to action.\n- **Even volume** from line to line.\n- **GTA names and money are said right:** \"GTA\", Leonida, Cayo Perico, Kosatka, \"Mark two\", and \"750,000 dollars\".\n- **A new voice option, \"Michael + Fenrir\":** livelier than Michael alone.\n- **A better-quality voice model**, downloaded once (170 MB). Captions are unchanged.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.7.1.zip",
-  "sha256": "3702e566ea7484cd46039f38234d5ebe3f8600e9e603fd005cc0c6ce0472ae34",
-  "size": 670566
+  "name": "ClipForge_App_1.8.0.zip",
+  "sha256": "e37da2e63dbb41218a6d696ad68c7fb2c23169d1c807bddc5f0704ba8a07a7c0",
+  "size": 675713
  }
 }

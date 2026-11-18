@@ -2,9 +2,11 @@
 
 The ClipForge app downloads its updates from this folder. Every file is checked against ClipForge's signature and SHA-256 before anything is installed.
 
-Current version: **1.7.1**
+Current version: **1.8.0**
 
-- A hook you write yourself can no longer get your script rejected.
-- Channel intros are judged as intros.
-- Scripts are pushed harder to use real spoken sentences instead of slogans.
-- A rewrite that comes back unchanged is redone from scratch.
+- **Sentences flow into each other:** lines with the same pace are spoken in one go instead of being stitched together.
+- **Pace and pauses follow the script:** a livelier hook, slower reveals, a short pause into "So…" or "Then…", and a breath before the call to action.
+- **Even volume** from line to line.
+- **GTA names and money are said right:** "GTA", Leonida, Cayo Perico, Kosatka, "Mark two", and "750,000 dollars".
+- **A new voice option, "Michael + Fenrir":** livelier than Michael alone.
+- **A better-quality voice model**, downloaded once (170 MB). Captions are unchanged.
