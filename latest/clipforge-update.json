@@ -1,10 +1,10 @@
 {
- "version": "1.8.1",
- "notes": "- **When a script falls short, ClipForge fixes it:** first the exact sentences that are wrong, then bigger rewrites, up to 5 rounds.\n- **It never stops you making the video.** If the script still isn't perfect, the best version is used, and you can edit any line in Script & Voice.\n- **List-style scripts** (\"#1\u2026 #2\u2026\") are turned into normal sentences.",
+ "version": "1.8.2",
+ "notes": "- Fixed: \"Access is denied\" when rebuilding a video (for example after changing the voice) while the preview was loaded.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.8.1.zip",
-  "sha256": "d836caf44ad7d645423b1f2d3be59a53a89ad43fb7d5938f466fc78d96011c83",
-  "size": 678254
+  "name": "ClipForge_App_1.8.2.zip",
+  "sha256": "6ff833b71902d374e8bd527ae043c8552e8c0b336e366e07713bce554aeb6585",
+  "size": 678678
  }
 }
