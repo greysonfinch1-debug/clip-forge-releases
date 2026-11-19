@@ -1,10 +1,10 @@
 {
- "version": "2.0.5",
- "notes": "- **Gemini can now do every AI job in ClipForge**, not just scripts:\n  - **Meaning search:** finding the moments where people talk about your topic, even in different words.\n  - **Frame descriptions:** describing what happens on screen, so clips are judged on what you actually see.\n- **\"Use Gemini\" in Settings sets up all three at once**, and \"Use Ollama (on this PC)\" switches all three back.\n- If the online AI is busy or rate-limited while searching for moments, ClipForge retries, then finishes with its built-in word matching instead of stopping.",
+ "version": "2.0.6",
+ "notes": "- Fixed: with **Gemini**, planning a video stopped with \"'str' object has no attribute 'values'\". Gemini \"thinks\" before it answers, and that thinking used up the room ClipForge gave each answer, so the script plan came back cut off. Online AI now gets room to think, and a cut-off answer is asked again with more room. The backup script writer that then crashed is fixed too.\n- Fixed: with a long prompt, the main window became taller than the screen and its bottom (CREATE, Number of clips, Projects\u2026) went under the Windows taskbar. Every page now scrolls when it doesn't fit, so the window always fits your screen.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_2.0.5.zip",
-  "sha256": "747f07800a7809a8b1521764432e1c7f9dd8ed46a34c7f3556aec15b8955dc2d",
-  "size": 695373
+  "name": "ClipForge_App_2.0.6.zip",
+  "sha256": "4257650096328ad7be4fcb4060f7c9f6ba01baebeb05ae2c8f9271ba67750113",
+  "size": 696192
  }
 }
