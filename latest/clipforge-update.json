@@ -1,10 +1,10 @@
 {
- "version": "2.0.1",
- "notes": "- Fixed: Settings changes not saving. The Save button was below the edge of the screen; it's now always visible, and closing with unsaved changes asks whether to save them.",
+ "version": "2.0.3",
+ "notes": "- Fixed: clips could come out **with no sound** after a YouTube download was interrupted.\n- Fixed: switching to another video or project while the first was still being analysed could mix up their analysis.\n- Fixed: exporting twice within the same minute **replaced the first export**. Each export now keeps its own file.\n- Fixed: with transitions turned off, exports failed if a folder name had an apostrophe (e.g. `Zo\u00eb O'Neil`).\n- Fixed: Cancel didn't respond while waiting to retry an online AI service (Gemini and others).\n- Settings that would make the render or AI calls fail (for example 0 fps) are now corrected automatically.\n- Half-finished temporary files are cleaned up properly, and no background FFmpeg is left running after a crash.\n- Also includes 2.0.2: a one-click \"Use Gemini\" button in Settings, Paste/Show buttons for the API key, and more accurate scripts (research stays on topic, prices must come from the right item, hooks are written fresh).",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_2.0.1.zip",
-  "sha256": "dc6e908fbe1454bba2f8c0970449fd58e802ae02b94fe0b5820e3d7a6449130f",
-  "size": 690643
+  "name": "ClipForge_App_2.0.3.zip",
+  "sha256": "3e164c1d0dbadd6b0a249d46f4014b135a325ce5c2ace9223d7a2f9d05c555c5",
+  "size": 692499
  }
 }
