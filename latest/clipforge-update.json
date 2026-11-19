@@ -1,10 +1,10 @@
 {
- "version": "1.8.0",
- "notes": "- **Sentences flow into each other:** lines with the same pace are spoken in one go instead of being stitched together.\n- **Pace and pauses follow the script:** a livelier hook, slower reveals, a short pause into \"So\u2026\" or \"Then\u2026\", and a breath before the call to action.\n- **Even volume** from line to line.\n- **GTA names and money are said right:** \"GTA\", Leonida, Cayo Perico, Kosatka, \"Mark two\", and \"750,000 dollars\".\n- **A new voice option, \"Michael + Fenrir\":** livelier than Michael alone.\n- **A better-quality voice model**, downloaded once (170 MB). Captions are unchanged.",
+ "version": "1.8.1",
+ "notes": "- **When a script falls short, ClipForge fixes it:** first the exact sentences that are wrong, then bigger rewrites, up to 5 rounds.\n- **It never stops you making the video.** If the script still isn't perfect, the best version is used, and you can edit any line in Script & Voice.\n- **List-style scripts** (\"#1\u2026 #2\u2026\") are turned into normal sentences.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.8.0.zip",
-  "sha256": "e37da2e63dbb41218a6d696ad68c7fb2c23169d1c807bddc5f0704ba8a07a7c0",
-  "size": 675713
+  "name": "ClipForge_App_1.8.1.zip",
+  "sha256": "d836caf44ad7d645423b1f2d3be59a53a89ad43fb7d5938f466fc78d96011c83",
+  "size": 678254
  }
 }
