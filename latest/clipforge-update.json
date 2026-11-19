@@ -1,10 +1,10 @@
 {
- "version": "1.8.3",
- "notes": "- Fixed: an AI script could come out far too short (a few sentences) when the quality fixes didn't fully succeed. A too-short version is never chosen now.\n- Your quoted ending (\"End with \u2026\") is always said.",
+ "version": "2.0.0",
+ "notes": "- **Topic ideas:** a new \"Topic ideas\u2026\" button suggests Short ideas, scores them, checks each one against real sources, skips what you've already made, and fills the prompt with one click.\n- **A bigger prompt box** that grows as you type, shows a word count and never loses your prompt (\"Restore my last prompt\").\n- **Works reliably with Gemini and other online AI:** rate limits and hiccups are retried automatically, and a bad key or model name gives a clear message.\n- **Settings are safer:** they survive a damaged file, wrong values are fixed automatically, and there's a new Reset to defaults button.\n- **System Check really tests things now:** it asks your AI model a question and voices a test sentence.\n- **Safety checks between steps:** a line with no audio is re-voiced or reported instead of leaving a silent gap.\n- **Everything from 1.7 to 1.8:** the rebuilt script writer, the more natural voice, and never blocking a video.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_1.8.3.zip",
-  "sha256": "108edbe091f0b9a8c34fc52f08a584a7ede09cc3f74d12c093fdb07dc70e5f8c",
-  "size": 678992
+  "name": "ClipForge_App_2.0.0.zip",
+  "sha256": "2a5de462637b94fb68c7062f7ea8e0df90d5fc41db521832ff0d40be30aa227b",
+  "size": 690138
  }
 }
