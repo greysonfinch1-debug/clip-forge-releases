@@ -1,10 +1,10 @@
 {
- "version": "2.0.6",
- "notes": "- Fixed: with **Gemini**, planning a video stopped with \"'str' object has no attribute 'values'\". Gemini \"thinks\" before it answers, and that thinking used up the room ClipForge gave each answer, so the script plan came back cut off. Online AI now gets room to think, and a cut-off answer is asked again with more room. The backup script writer that then crashed is fixed too.\n- Fixed: with a long prompt, the main window became taller than the screen and its bottom (CREATE, Number of clips, Projects\u2026) went under the Windows taskbar. Every page now scrolls when it doesn't fit, so the window always fits your screen.",
+ "version": "2.0.7",
+ "notes": "- **No more long clips without narration:** in hybrid videos, each real moment from the stream now plays for at most 6 seconds, cut around its best part. A moment used to run as long as 19 seconds.\n- **Stronger hooks:** a hook you write in your prompt now competes with 6 hooks written by the AI, and the strongest one is used. To keep yours word for word, write \"use this hook exactly\".\n- **Better scripts from a detailed prompt:** the tips and facts you write in your prompt now count as verified, so the AI plans the video around them. Before, Gemini treated them as unconfirmed rumours and wrote without a plan.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_2.0.6.zip",
-  "sha256": "4257650096328ad7be4fcb4060f7c9f6ba01baebeb05ae2c8f9271ba67750113",
-  "size": 696192
+  "name": "ClipForge_App_2.0.7.zip",
+  "sha256": "7f196d00f356bd0826c690139077ec814c4e36e3eb7a93d4aa958b901e44a29e",
+  "size": 697360
  }
 }
