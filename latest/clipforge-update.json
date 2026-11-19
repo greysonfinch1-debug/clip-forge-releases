@@ -1,10 +1,10 @@
 {
- "version": "2.0.4",
- "notes": "- Fixed: with **Gemini** (or another online AI) chosen in Settings, ClipForge stopped using Ollama for **meaning search** and **frame descriptions**, even when Ollama was running. It fell back to plain word matching and no frame descriptions. They now always use Ollama on your PC, whichever AI writes the scripts.\n- The AI Models page shows Ollama's real status and downloads its models correctly while Gemini is selected.\n- When a script can't be written, the message now gives the real reason, for example \"no language model is selected\" or \"the API key was rejected\". Before, it always said Ollama wasn't running.",
+ "version": "2.0.5",
+ "notes": "- **Gemini can now do every AI job in ClipForge**, not just scripts:\n  - **Meaning search:** finding the moments where people talk about your topic, even in different words.\n  - **Frame descriptions:** describing what happens on screen, so clips are judged on what you actually see.\n- **\"Use Gemini\" in Settings sets up all three at once**, and \"Use Ollama (on this PC)\" switches all three back.\n- If the online AI is busy or rate-limited while searching for moments, ClipForge retries, then finishes with its built-in word matching instead of stopping.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_2.0.4.zip",
-  "sha256": "adba562772f2ab2dc0eeed0a0cc4cefad56b80caed373bd5d36a415477bb28cc",
-  "size": 693337
+  "name": "ClipForge_App_2.0.5.zip",
+  "sha256": "747f07800a7809a8b1521764432e1c7f9dd8ed46a34c7f3556aec15b8955dc2d",
+  "size": 695373
  }
 }

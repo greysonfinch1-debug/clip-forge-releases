@@ -2,8 +2,10 @@
 
 The ClipForge app downloads its updates from this folder. Every file is checked against ClipForge's signature and SHA-256 before anything is installed.
 
-Current version: **2.0.4**
+Current version: **2.0.5**
 
-- Fixed: with **Gemini** (or another online AI) chosen in Settings, ClipForge stopped using Ollama for **meaning search** and **frame descriptions**, even when Ollama was running. It fell back to plain word matching and no frame descriptions. They now always use Ollama on your PC, whichever AI writes the scripts.
-- The AI Models page shows Ollama's real status and downloads its models correctly while Gemini is selected.
-- When a script can't be written, the message now gives the real reason, for example "no language model is selected" or "the API key was rejected". Before, it always said Ollama wasn't running.
+- **Gemini can now do every AI job in ClipForge**, not just scripts:
+  - **Meaning search:** finding the moments where people talk about your topic, even in different words.
+  - **Frame descriptions:** describing what happens on screen, so clips are judged on what you actually see.
+- **"Use Gemini" in Settings sets up all three at once**, and "Use Ollama (on this PC)" switches all three back.
+- If the online AI is busy or rate-limited while searching for moments, ClipForge retries, then finishes with its built-in word matching instead of stopping.
