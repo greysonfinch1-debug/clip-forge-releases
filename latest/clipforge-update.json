@@ -1,10 +1,10 @@
 {
- "version": "2.0.3",
- "notes": "- Fixed: clips could come out **with no sound** after a YouTube download was interrupted.\n- Fixed: switching to another video or project while the first was still being analysed could mix up their analysis.\n- Fixed: exporting twice within the same minute **replaced the first export**. Each export now keeps its own file.\n- Fixed: with transitions turned off, exports failed if a folder name had an apostrophe (e.g. `Zo\u00eb O'Neil`).\n- Fixed: Cancel didn't respond while waiting to retry an online AI service (Gemini and others).\n- Settings that would make the render or AI calls fail (for example 0 fps) are now corrected automatically.\n- Half-finished temporary files are cleaned up properly, and no background FFmpeg is left running after a crash.\n- Also includes 2.0.2: a one-click \"Use Gemini\" button in Settings, Paste/Show buttons for the API key, and more accurate scripts (research stays on topic, prices must come from the right item, hooks are written fresh).",
+ "version": "2.0.4",
+ "notes": "- Fixed: with **Gemini** (or another online AI) chosen in Settings, ClipForge stopped using Ollama for **meaning search** and **frame descriptions**, even when Ollama was running. It fell back to plain word matching and no frame descriptions. They now always use Ollama on your PC, whichever AI writes the scripts.\n- The AI Models page shows Ollama's real status and downloads its models correctly while Gemini is selected.\n- When a script can't be written, the message now gives the real reason, for example \"no language model is selected\" or \"the API key was rejected\". Before, it always said Ollama wasn't running.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_2.0.3.zip",
-  "sha256": "3e164c1d0dbadd6b0a249d46f4014b135a325ce5c2ace9223d7a2f9d05c555c5",
-  "size": 692499
+  "name": "ClipForge_App_2.0.4.zip",
+  "sha256": "adba562772f2ab2dc0eeed0a0cc4cefad56b80caed373bd5d36a415477bb28cc",
+  "size": 693337
  }
 }
