@@ -1,10 +1,10 @@
 {
- "version": "2.0.9",
- "notes": "- **Your prompt's rules now win over the page-1 options.** \"Video type: \u2026\", \"Length: 30 seconds\" and narration marked \"use exactly / do not rewrite\" are followed. Your lines are voiced word for word, never rewritten.\n- **No \"Follow for more\" unless you ask for one**, neither spoken nor as an end card.\n- **One title and one caption style:** no second, smaller title, and every caption uses the same bold style.\n- **\"Mute the game audio\"** mutes it and drops captions of in-game speech.\n- **Clips never end in the middle of a word.**\n- **If your prompt asks for something ClipForge can't make yet** (old-vs-new comparisons, split screen, corner labels, music when no music file is set), it stops and tells you instead of making a video that only pretends to follow it.\n- **Every export is checked against your prompt:** exact narration, length (\u00b11 s), no call to action unless asked, one caption track and style, no overlapping text, and no audio cut mid-word. If a check fails, the file is renamed `\u2026_CHECK-FAILED` and you're told why. The results are in each video's .txt file.",
+ "version": "2.0.10",
+ "notes": "- Fixed: footage permission you had recorded could look \"not recorded\" after reopening a project, if ClipForge was closed before the project saved. The permission saved with the video is now used.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_2.0.9.zip",
-  "sha256": "6db3bcbf6859cc2f6bea3d4b7a33a5290cbb3c3f154109f8aea938995a0efe95",
-  "size": 709080
+  "name": "ClipForge_App_2.0.10.zip",
+  "sha256": "3ec5dc65cc3cdff31dec9521bcf28086d951b9932d7b78b853ab4c5272bb5182",
+  "size": 709244
  }
 }
