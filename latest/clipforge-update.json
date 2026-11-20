@@ -1,10 +1,10 @@
 {
- "version": "2.0.10",
- "notes": "- Fixed: footage permission you had recorded could look \"not recorded\" after reopening a project, if ClipForge was closed before the project saved. The permission saved with the video is now used.",
+ "version": "2.0.11",
+ "notes": "- Fixed: narrated videos could show in-game phone messages, menus, shop screens or the map under a line that had nothing to do with them. These screens are now left out, unless the line asks for a phone, menu or map.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_2.0.10.zip",
-  "sha256": "3ec5dc65cc3cdff31dec9521bcf28086d951b9932d7b78b853ab4c5272bb5182",
-  "size": 709244
+  "name": "ClipForge_App_2.0.11.zip",
+  "sha256": "ccf7580d0605ad627d57c1fcba2873d6e24a767f2fb31c2a05431286c2904689",
+  "size": 709771
  }
 }
