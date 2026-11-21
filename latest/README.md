@@ -2,7 +2,6 @@
 
 The ClipForge app downloads its updates from this folder. Every file is checked against ClipForge's signature and SHA-256 before anything is installed.
 
-Current version: **2.0.13**
+Current version: **2.0.14**
 
-- **Stronger openings:** the first shot of a narrated video is now the most action-packed footage there is (police, guns, chases, crashes, fast movement), even when the hook's words don't describe anything visual.
-- **No menu flashes:** item and collectible cards on a black screen are now left out too, and no shot can run into a phone, menu or card screen at its end.
+- **Even smoother narration:** the small gaps between words are shorter (at most 0.08 s), and lines follow each other after about 0.2 s instead of 0.35–0.45 s.

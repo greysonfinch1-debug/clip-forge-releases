@@ -1,10 +1,10 @@
 {
- "version": "2.0.13",
- "notes": "- **Stronger openings:** the first shot of a narrated video is now the most action-packed footage there is (police, guns, chases, crashes, fast movement), even when the hook's words don't describe anything visual.\n- **No menu flashes:** item and collectible cards on a black screen are now left out too, and no shot can run into a phone, menu or card screen at its end.",
+ "version": "2.0.14",
+ "notes": "- **Even smoother narration:** the small gaps between words are shorter (at most 0.08 s), and lines follow each other after about 0.2 s instead of 0.35\u20130.45 s.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_2.0.13.zip",
-  "sha256": "da21b3094b9537148cbd98fbddbec31a84ccfb61452c0418b06fcd8703a79ea7",
-  "size": 711560
+  "name": "ClipForge_App_2.0.14.zip",
+  "sha256": "f053d0f166a18d2572ab535524571cc62c351acc3c827cd67fc9fac0fb68568d",
+  "size": 711661
  }
 }
