@@ -1,10 +1,10 @@
 {
- "version": "2.0.11",
- "notes": "- Fixed: narrated videos could show in-game phone messages, menus, shop screens or the map under a line that had nothing to do with them. These screens are now left out, unless the line asks for a phone, menu or map.",
+ "version": "2.0.12",
+ "notes": "- **Smoother narration:** much shorter pauses between lines, no long stop after a colon (\"One: \u2026\"), and the voice's own little breaks inside a sentence are shortened. On a 6-line script the pauses went from 5.1 s to 2.2 s in total, and the longest from 0.79 s to 0.51 s.\n- The video now ends a short breath after the last word instead of cutting it close.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_2.0.11.zip",
-  "sha256": "ccf7580d0605ad627d57c1fcba2873d6e24a767f2fb31c2a05431286c2904689",
-  "size": 709771
+  "name": "ClipForge_App_2.0.12.zip",
+  "sha256": "2fcaeefb4c312be15b879ace8ca9340f5d2369d30b60a5b1527fef8faca398de",
+  "size": 710723
  }
 }
