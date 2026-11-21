@@ -1,10 +1,10 @@
 {
- "version": "2.0.12",
- "notes": "- **Smoother narration:** much shorter pauses between lines, no long stop after a colon (\"One: \u2026\"), and the voice's own little breaks inside a sentence are shortened. On a 6-line script the pauses went from 5.1 s to 2.2 s in total, and the longest from 0.79 s to 0.51 s.\n- The video now ends a short breath after the last word instead of cutting it close.",
+ "version": "2.0.13",
+ "notes": "- **Stronger openings:** the first shot of a narrated video is now the most action-packed footage there is (police, guns, chases, crashes, fast movement), even when the hook's words don't describe anything visual.\n- **No menu flashes:** item and collectible cards on a black screen are now left out too, and no shot can run into a phone, menu or card screen at its end.",
  "runtime_version": "py3.11-c37917fae73d",
  "app_package": {
-  "name": "ClipForge_App_2.0.12.zip",
-  "sha256": "2fcaeefb4c312be15b879ace8ca9340f5d2369d30b60a5b1527fef8faca398de",
-  "size": 710723
+  "name": "ClipForge_App_2.0.13.zip",
+  "sha256": "da21b3094b9537148cbd98fbddbec31a84ccfb61452c0418b06fcd8703a79ea7",
+  "size": 711560
  }
 }
